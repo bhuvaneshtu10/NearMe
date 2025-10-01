@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiruvannamalai Map with Hotspots</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    img {
+      max-width: 90%;
+      height: auto;
+      border: 2px solid #444;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tiruvannamalai Map with Hotspots</h1>
+  <p>Click on the highlighted locations to explore them in Google Maps.</p>
+
+  <!-- Map image -->
+  <img src="map1.png" alt="Tiruvannamalai Map" usemap="#tiruvannamalai-map">
+
+  <!-- Clickable areas -->
+  <map name="tiruvannamalai-map">
+    <!-- Imagica Fun World -->
+    <area shape="circle" coords="730,120,40" 
+          href="imagica.html" 
+          alt="Imagica Fun World" target="_blank">
+
+    <!-- Hotel Himalayaa -->
+    <area shape="circle" coords="820,240,40" 
+          href="hh.html" 
+          alt="Hotel Himalayaa" target="_blank">
+
+    <!-- Arunachaleswarar Temple -->
+    <area shape="circle" coords="680,400,40" 
+          href="tem.html" 
+          alt="Arunachaleswarar Temple" target="_blank">
+
+    <!-- The Mountain Retreat -->
+    <area shape="circle" coords="280,420,45" 
+          href="mountainretreat.html" 
+          alt="The Mountain Retreat" target="_blank">
+  </map>
+
+</body>
+</html>
