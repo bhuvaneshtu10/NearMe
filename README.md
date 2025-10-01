@@ -421,6 +421,7 @@ Execute the programs and publish them.
 ```
 ## OUTPUT
 
+![alt text](mappro/mapapp/static/map.png)
 ![alt text](mappro/mapapp/static/hh.png)
 ![alt text](mappro/mapapp/static/imagica.png)
 ![alt text](mappro/mapapp/static/mountainretreat.png)
